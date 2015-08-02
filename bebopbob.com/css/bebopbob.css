@@ -1,0 +1,101 @@
+/** 
+
+.for class
+#for id
+
+**/
+
+body {
+background-image: url('../images/bg.jpg');
+background-color:black;
+background-repeat: no-repeat;
+background-position:center;
+margin-left:auto ;
+margin-right:auto ;
+text-align: center;
+width: 100%;
+height: 25px;
+}
+
+h1 {
+text-align:center;
+color:black; 
+font-size:40pt;
+font-family:futura;
+padding-top:15px;
+}
+
+h3 {
+text-align:center;
+color:black; 
+font-size:16pt;
+font-family:open sans;
+}
+
+p {
+text-align: center;
+font-family:futura;
+font-size:16;
+color:black;
+}
+
+#mainContainer{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#mainContainer > div {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#mainContainer > div > div {
+	width: 960px;
+	margin: 10px auto;
+	background: rgba(255,255,255,0.5);
+}
+
+/* Slider */ 
+a#next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+a#prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+/*Main Nav */
+nav#mainNav ul.nav.nav-pills li {
+	color:#fff;
+	background-color: #000;
+
+}
+000
+nav#mainNav ul.nav.nav-pills li a {
+	color:#fff;
+}
+
+nav#mainNav ul.nav.nav-pills li:hover, nav#mainNav ul.nav.nav-pills li:focus,nav#mainNav ul.nav.nav-pills li:active,nav#mainNav ul.nav.nav-pills li:visited {
+	color:#fff;
+	background-color: #555;
+}
+/* Footer */
+nav#footerNav ul.nav.nav-pills li {
+	color:#000;
+	background-color: #555;
+}
+
+nav#footerNav ul.nav.nav-pills li a {
+	color:#000;
+}
+
+nav#footerNav ul.nav.nav-pills li:hover, nav#footerNav ul.nav.nav-pills li:focus,nav#footerNav ul.nav.nav-pills li:active,nav#footerNav ul.nav.nav-pills li:visited {
+	color:#000;
+	background-color: #777
+}
